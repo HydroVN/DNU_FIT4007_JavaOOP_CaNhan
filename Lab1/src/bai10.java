@@ -10,7 +10,7 @@ public class bai10 {
         if(word == 'z') {
             System.out.println("Không có ký tự nào sau " + word);
         }else {
-            char newWord = (char) (word + 1);
+            char newWord = (char) (word + 1); // (char): ép kiểu từ int sang char
             System.out.println("Chữ cái liền sau của " + word + " là: " + newWord);
         }
     }
